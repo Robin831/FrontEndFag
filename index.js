@@ -2,6 +2,7 @@ const cors = require('cors')
 const express = require('express')
 const app = express()
 app.use(cors())
+
 const Database = require('@replit/database')
 const db = new Database();
 db.set("1", {​​​​​​​firstname: 'Magne', lastname: 'Alvheim'}​​​​​​​).then(() => {​​​​​​​}​​)
